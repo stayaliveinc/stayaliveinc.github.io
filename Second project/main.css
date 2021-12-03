@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 0 2em;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*Home.html css */
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 0 0 30px 30px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgba(0, 1, 1, 0.5);
+    animation: slideInFromTop 2s ease-out;
+}
+
+.s-h1 {
+    font-family: 'Libre Barcode 39 Text';
+    font-size: 50px;
+}
+
+.con2-nav {
+    font-family: 'Teko';
+    display: flex;
+    padding: 5px;
+    border-radius: 20px 20px 0 0;
+}
+
+.con2-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.con2-nav a {
+    margin: 0 10px;
+}
+
+.fa-bity {
+    color: coral;
+    font-size: 45px;
+}
+
+button {
+    padding: 10px;
+    font-family: 'Teko';
+    background: linear-gradient(80deg, black, lightblue);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.img-sec {
+    background-image: url("melina-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.lp {
+    font-family: 'Skranji';
+    text-align: center;
+    color: coral;
+    text-shadow: 3px 3px 5px black, 3px 3px 5px black;
+}
+
+.img-title {
+    font-family: 'Teko';
+    font-weight: 300;
+    font-size: 35px;
+    padding-left: 15px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    animation: slideInFromLeft 6s ease-in-out forwards infinite alternate;
+    position: relative;
+    top: 200px;
+}
+
+.img-title:hover {
+    animation-play-state: paused;
+}
+
+span {
+    color: coral;
+    text-shadow: 3px 3px 5px black;
+}
+
+.menu {
+    display: grid;
+    grid-template-areas: "i i" "ii iii" "iv iv";
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    row-gap: 1px;
+    column-gap: 2px;
+    background-color: white;
+    font-family: 'Teko';
+    animation: slideInFromRight 2s ease-out;
+    position: relative;
+    top: 200px;
+}
+
+.area1 {
+    background-color: rgb(227, 227, 87);
+    padding: 10px;
+    grid-area: i;
+    border-radius: 10px;
+}
+
+.area2 {
+    background-color: violet;
+    padding: 10px;
+    grid-area: ii;
+    border-radius: 10px;
+}
+
+.area3 {
+    background-color: rgb(200, 41, 41);
+    padding: 10px;
+    grid-area: iii;
+    border-radius: 10px;
+}
+
+.area4 {
+    background-color: rgb(48, 48, 191);
+    padding: 10px;
+    grid-area: iv;
+    border-radius: 10px;
+}
+
+.over {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec-menu {
+    border: solid 3px coral;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 30px 30px 0 0;
+    background-color: rgba(0, 1, 1, 0.5);
+    position: relative;
+}
+
+.menh3 {
+    text-align: center;
+    font-family: 'Gluten';
+    color: coral;
+    padding: 15px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info input {
+    padding: 3px;
+    margin: 5px;
+    width: 80%;
+    font-size: 10px;
+}
+
+.info input:hover {
+    border: solid 3px skyblue;
+}
+
+.fa-bug {
+    position: relative;
+    left: 235px;
+    bottom: 80px;
+    color: rgb(2, 148, 2);
+}
+
+a:hover {
+    color: coral;
+}
+
+a:focus {
+    color: coral;
+    border: 1px solid coral;
+}
+
+.intro p {
+    font-family: 'Allerta Stencil';
+    font-size: 13px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: wheat;
+}
+
+.par {
+    font-family: 'Teko';
+    padding: 10px;
+    border: solid 2px coral;
+    background-color: rgba(0, 1, 1, 0.5);
+    margin: 0 auto;
+    width: 85%;
+    border-radius: 0 0 30px 30px;
+    color: white;
+    text-align: center;
+}
+
+.par p {
+    font-size: 15px;
+}
+
+.btns {
+    background: rgb(48, 48, 191);
+    color: white;
+    font-family: "Teko";
+    border: none;
+    border-radius: 30px;
+    transition: transform .4s ease-in-out, border-bottom .4s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.one,
+.two {
+    min-height: 100vh;
+}
+
+.one {
+    background: url("melina-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.two {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("melina-unsplash.jpg")center/cover no-repeat fixed;
+}
+
+.info input {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    .con2-nav {
+        font-size: 12px;
+        padding: 2px;
+    }
+    .con2-nav a {
+        margin: 0 3px;
+    }
+    .con2-nav ul {
+        font-size: 12px;
+    }
+    .fa-bity {
+        font-size: 25px;
+    }
+    .lp {
+        font-size: 15px;
+    }
+    .intro p {
+        font-size: 10px;
+        max-width: 100%;
+        color: black;
+    }
+    .sec-menu {
+        border: solid 3px coral;
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 30px 30px 0 0;
+        background-color: rgba(0, 1, 1, 0.5);
+        position: relative;
+        top: 130px;
+    }
+    .info input {
+        font-size: 9px;
+    }
+    .img-title {
+        font-size: 20px;
+    }
+    .menu {
+        font-size: 12px;
+        max-width: 100%;
+    }
+    .menh3 {
+        font-size: 15px;
+    }
+    .par {
+        font-family: 'Teko';
+        font-size: 8px;
+        padding: 10px;
+        border: none;
+        background-color: rgba(0, 1, 1, 0.5);
+        margin: 0 auto;
+        width: 100%;
+    }
+    .f-h1 {
+        font-size: 20px;
+    }
+    .vh3,
+    .fh2 {
+        font-size: 15px;
+    }
+    .sub-nav {
+        font-size: 10px;
+    }
+    .log {
+        width: 100%;
+    }
+    .logo {
+        width: 80%;
+    }
+    figcaption {
+        font-size: 11px;
+    }
+    .con1 p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 490px) {
+    .sec-menu {
+        width: 300px;
+        border: solid 3px coral;
+        margin: 0 auto;
+        border-radius: 30px 30px 0 0;
+        background-color: rgba(0, 1, 1, 0.5);
+        position: relative;
+        top: 250px;
+    }
+    .info input {
+        max-width: 70%;
+    }
+    .par p {
+        font-size: 13px;
+    }
+}
+
+
+/* About.html */
+
+.navbar {
+    padding-top: 5px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background: url("iabz-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.f-h1 {
+    font-family: 'Yuji Boku', serif;
+    color: cadetblue;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.fa-500px {
+    color: coral;
+    font-size: 125px;
+    margin-top: 25px;
+}
+
+.sub-nav,
+.con1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vh3,
+.fh2 {
+    font-family: 'Allerta Stencil';
+    font-size: 25px;
+    font-variant: small-caps;
+    color: coral;
+}
+
+.sub-nav p {
+    font-family: "teko";
+    text-align: center;
+    color: cadetblue;
+}
+
+.con1 p {
+    font-family: "teko";
+    text-align: center;
+    color: cadetblue;
+    padding: 0 25px;
+}
+
+.log,
+.con1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.log {
+    animation: slidebacknforth 10s ease-in-out forwards infinite alternate;
+}
+
+.log:hover {
+    animation-play-state: paused;
+}
+
+.logo {
+    box-shadow: -5px 5px 5px wheat;
+    border-radius: 50%;
+    filter: blur(1px);
+}
+
+figcaption {
+    font-family: 'Yuji Boku';
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    color: cadetblue;
+}
+
+@media screen and (min-width: 1000px) {
+    .f-h1 {
+        font-size: 35px;
+    }
+    .vh3,
+    .fh2 {
+        font-family: 'Allerta Stencil';
+        font-size: 25px;
+        font-variant: small-caps;
+        color: coral;
+    }
+    .sub-nav p {
+        font-family: "teko";
+        text-align: center;
+        color: cadetblue;
+        font-size: 15px;
+    }
+    .con1 p {
+        font-family: "teko";
+        text-align: center;
+        color: cadetblue;
+        padding: 0 25px;
+        font-size: 18px;
+    }
+    .info input {
+        width: 75%;
+    }
+    .sec-menu {
+        width: 300px;
+        border: solid 3px coral;
+        margin: 0 auto;
+        border-radius: 30px 30px 0 0;
+        background-color: rgba(0, 1, 1, 0.5);
+        position: relative;
+        top: 350px;
+    }
+    .par p {
+        font-size: 15px;
+    }
+}
+
+
+/* Contact.html */
+
+.main,
+.main2 {
+    min-height: 100vh;
+}
+
+.main {
+    background: url("iabz-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("iabz-unsplash.jpg")center/cover no-repeat fixed;
+}
+
+
+/*Animations */
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-60%);
+    }
+    100% {
+        transform: translateX(60%);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slidebacknforth {
+    0% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(40%);
+    }
+    75% {
+        transform: translateX(70%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
